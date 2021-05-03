@@ -11,7 +11,6 @@
             data-netlify="true"
             id="app"
             @submit="validate"
-            action=""
             novalidate="true"
         >
             <p v-if="errors.length" id="warning">
