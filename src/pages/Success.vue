@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 div {
+    background: $gray;
     height: 100vh;
     display: flex;
     flex-direction: column;
