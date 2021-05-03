@@ -5,7 +5,7 @@
                 <h1><span>Hello,</span> my name is Reagan</h1>
                 <div class="intro-text">
                     <p>
-                        I am a <span>Software Developer</span> currently based in Fruita, Colorado
+                        I am a <span>Web Developer</span> currently based in Fruita, Colorado
                     </p>
                     <p>
                         Let's get in touch and create something <span>unique</span> together
