@@ -7,6 +7,7 @@
         </div>
         <form
         data-netlify="true"
+        name="contact"
         id="app"
         @submit="validate"
         action="/src/pages/Success.vue"
