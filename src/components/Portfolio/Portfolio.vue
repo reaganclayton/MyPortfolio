@@ -53,36 +53,36 @@ export default {
             items: [
                 {
                     title: 'weatherUP',
-                    techs: ['Vue.js', 'Node/Express', 'REST Api', 'Axios', 'SCSS'],
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex sem, elementum vitae neque non, mattis ultricies lacus. Suspendisse placerat et leo at tempor. Fusce ut ultricies felis. Quisque sagittis nulla eu viverra tristique. Nullam lacus sapien, tempus sed aliquet a, venenatis a mi. Mauris fermentum ut mi sit amet vestibulum.',
+                    techs: ['Vue.js', 'Node/Express', 'OpenWeatherMap API', 'Axios', 'Moment.js', 'SCSS', 'Figma', 'Photoshop'],
+                    description: 'This web application utilizes OpenWeatherMap\'s API to show the weather for an inputed location. In addition to dynamic weather information, the current time at the inputed location will be shown, as well as dynamic icons based on the weather, and a dynamic background color depending on the sunset/sunrise of the inputed location. The backend is built with Node/Express and uses node-fetch to make the API call. Axios is used on the Vue front end to communicate this call. Figma was used for design and Photoshop was used to implement the design.',
                     github: 'https://github.com/reaganclayton/weatherUP',
                     demo: 'https://weather-up-fullstack.herokuapp.com/'
                 },
                 {
                     title: 'BestConnect',
-                    techs: ['React.js', 'Javascript', 'SCSS', 'Photoshop', 'Figma'],
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex sem, elementum vitae neque non, mattis ultricies lacus. Suspendisse placerat et leo at tempor. Fusce ut ultricies felis. Quisque sagittis nulla eu viverra tristique. Nullam lacus sapien, tempus sed aliquet a, venenatis a mi. Mauris fermentum ut mi sit amet vestibulum.',
+                    techs: ['Vue.js', 'Javascript', 'SCSS', 'Photoshop', 'Figma'],
+                    description: 'BestConnect is a landing page for a mock ISP company that I came up with. This web app is built using Vue and utilizes its components and form validation. The design was created in Figma and was implemented using Photoshop.',
                     github: 'https://github.com/reaganclayton/BestConnect',
                     demo: 'https://jolly-poitras-00d5ec.netlify.app/'
                 },
                 {
                     title: 'Portfolio Website',
-                    techs: ['Vue.js', 'Vuelidate', 'SCSS', 'Photoshop'],
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex sem, elementum vitae neque non, mattis ultricies lacus. Suspendisse placerat et leo at tempor. Fusce ut ultricies felis. Quisque sagittis nulla eu viverra tristique. Nullam lacus sapien, tempus sed aliquet a, venenatis a mi. Mauris fermentum ut mi sit amet vestibulum.',
+                    techs: ['Vue.js', 'SCSS', 'Figma', 'Photoshop'],
+                    description: 'The website you are on right now! This web application is built with Vue.js and utilizes Vue\'s reusable components, props, form validation, and more. The design is inspired by the common "dark theme" style, and I used a blue accent to make it pop. Figma was used for design and Photoshop was used to implement the design.',
                     github: 'https://github.com/reaganclayton/MyPortfolio',
                     demo: 'https://reaganclayton.com'
                 },
                 {
                     title: 'The Modern Age',
-                    techs: ['HTML5', 'Bootstrap', 'Vanilla Javascript'],
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex sem, elementum vitae neque non, mattis ultricies lacus. Suspendisse placerat et leo at tempor. Fusce ut ultricies felis. Quisque sagittis nulla eu viverra tristique. Nullam lacus sapien, tempus sed aliquet a, venenatis a mi. Mauris fermentum ut mi sit amet vestibulum.',
+                    techs: ['HTML5', 'Bootstrap', 'Javascript'],
+                    description: 'This web app is an ecommerce shopping cart that enables users to add, update, and delete items from a cart. The logic of the application is powered by Javascript, while the front end is built with Bootstrap and very little inline CSS.',
                     github: 'https://github.com/reaganclayton/TheModernAge',
                     demo: 'https://compassionate-mcnulty-6e3e71.netlify.app/'
                 },
                 {
                     title: 'snakegame',
-                    techs: ['HTML5', 'CSS3', 'Vanilla Javascript'],
-                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex sem, elementum vitae neque non, mattis ultricies lacus. Suspendisse placerat et leo at tempor. Fusce ut ultricies felis. Quisque sagittis nulla eu viverra tristique. Nullam lacus sapien, tempus sed aliquet a, venenatis a mi. Mauris fermentum ut mi sit amet vestibulum.',
+                    techs: ['HTML5', 'CSS3', 'Javascript'],
+                    description: 'Essentially a clone of the popular game "Snake," this project\'s logic was built entirely with plain Javascript. The design and logo are original and were created in Photoshop.',
                     github: 'https://github.com/reaganclayton/snakegame',
                     demo: 'https://eager-archimedes-956782.netlify.app/'
                 }

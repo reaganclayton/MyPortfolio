@@ -4,7 +4,7 @@
             <ul>
                 <li>
                     <i class="fa fa-map-marker-alt"></i>
-                    <p>Fruita, Colorado</p>
+                    <p id="location" @click="newWindow('https://fruita.org')">Fruita, Colorado</p>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
@@ -12,7 +12,9 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <p>reaganclayton1995@gmail.com</p>
+                    <a href="mailto:reaganclayton1995@gmail.com">
+                        <p>reaganclayton1995@gmail.com</p>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -29,12 +31,7 @@
 
 <script>
 export default {
-    name: 'Footer',
-    methods: {
-        newWindow: link => {
-            window.open(link);
-        }
-    }
+    name: 'Footer'
 }
 </script>
 
@@ -64,8 +61,12 @@ footer {
         align-items: center;
         p {
             letter-spacing: .5px;
-            
             font-family: 'Roboto';
+        }
+        a, #location {
+            cursor: pointer;
+            color: $blue;
+            text-decoration: underline;
         }
     }
     .footer-info {

@@ -17,11 +17,6 @@ export default {
     props: {
         github: String,
         demo: String
-    },
-    methods: {
-        newWindow: link => {
-            window.open(link);
-        }
     }
 }
 </script>

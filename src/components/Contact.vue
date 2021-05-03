@@ -8,7 +8,7 @@
         <form
         id="app"
         @submit="validate"
-        action="/"
+        action="/src/pages/Success.vue"
         method="post"
         novalidate="true"
         >
