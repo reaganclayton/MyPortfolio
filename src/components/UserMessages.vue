@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 div {
     background: $gray;
     height: 100vh;
