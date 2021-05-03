@@ -1,41 +1,27 @@
 <template>
-    <div>
-        <h1>Thanks for getting in touch</h1>
-        <p>I will get back with you as soon as I can!</p>
-        <router-link to="/">
-            <button class="btn">
-                <span><i class="fa fa-angle-left"></i></span> Go back
-            </button>
-        </router-link>            
-    </div>
+    <UserMessages 
+        :title="title"
+        :message="message"
+    />
 </template>
 
 <script>
+import UserMessages from '../components/UserMessages'
+
 export default {
-    name: 'Success'
+    name: 'Success',
+    components: {
+        UserMessages
+    },
+    data() {
+        return {
+            title: 'Thanks for getting in touch!',
+            message: 'I will get back with you as soon as I can'
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-div {
-    background: $gray;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    h1 {
-        font-size: 3em;
-        font-family: 'Raleway';
-        text-transform: uppercase;
-        color: $blue;
-    }
-    p {
-        font-family: 'Roboto';
-        font-size: 1.5em;
-        font-weight: 300;
-        color: #fff;
-        margin: .5em 0 3em;
-    }
-}
+
 </style>
