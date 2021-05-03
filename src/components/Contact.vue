@@ -6,13 +6,13 @@
             <p>Fill out this form and I will get back with you as soon as I can</p>            
         </div>
         <form
-        data-netlify="true"
-        name="contact"
-        id="app"
-        @submit="validate"
-        action=""
-        method="POST"
-        novalidate="true"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            id="app"
+            @submit="validate"
+            action=""
+            novalidate="true"
         >
             <p v-if="errors.length" id="warning">
                 <b>Something went wrong! Check the error(s) and try again:</b>
