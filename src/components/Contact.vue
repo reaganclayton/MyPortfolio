@@ -6,12 +6,12 @@
             <p>Fill out this form and I will get back with you as soon as I can</p>            
         </div>
         <form
+        data-netlify="true"
         id="app"
         @submit="validate"
         action="/src/pages/Success.vue"
         method="post"
         novalidate="true"
-        data-netlify="true"
         >
             <p v-if="errors.length" id="warning">
                 <b>Something went wrong! Check the error(s) and try again:</b>
