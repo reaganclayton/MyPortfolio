@@ -8,7 +8,7 @@
         <form
             name="contact"
             method="POST"
-            data-netlify="true"
+            netlify="true"
             id="app"
             @submit="validate"
             novalidate="true"
