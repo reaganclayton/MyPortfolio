@@ -6,13 +6,14 @@
             <p>Fill out this form and I will get back with you as soon as I can</p>            
         </div>
         <form
-            name="contact"
+            action="https://formsubmit.co/reaganclayton1995@gmail.com"
             method="POST"
-            netlify="true"
             id="app"
             @submit="validate"
             novalidate="true"
         >
+            <input type="hidden" name="_next" value="https://reaganclayton.com/success">
+            <input type="hidden" name="_captcha" value="false">
             <p v-if="errors.length" id="warning">
                 <b>Something went wrong! Check the error(s) and try again:</b>
                 <ul>
