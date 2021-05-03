@@ -10,8 +10,8 @@
         name="contact"
         id="app"
         @submit="validate"
-        action="/src/pages/Success.vue"
-        method="post"
+        action=""
+        method="POST"
         novalidate="true"
         >
             <p v-if="errors.length" id="warning">
