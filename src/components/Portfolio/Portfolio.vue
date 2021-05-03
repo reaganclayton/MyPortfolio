@@ -53,8 +53,8 @@ export default {
             items: [
                 {
                     title: 'weatherUP',
-                    techs: ['Vue.js', 'Node/Express', 'OpenWeatherMap API', 'Axios', 'Moment.js', 'SCSS', 'Figma', 'Photoshop'],
-                    description: 'This web application utilizes OpenWeatherMap\'s API to show the weather for an inputed location. In addition to dynamic weather information, the current time at the inputed location will be shown, as well as dynamic icons based on the weather, and a dynamic background color depending on the sunset/sunrise of the inputed location. The backend is built with Node/Express and uses node-fetch to make the API call. Axios is used on the Vue front end to communicate this call. Figma was used for design and Photoshop was used to implement the design.',
+                    techs: ['Vue.js', 'Node/Express', 'OpenWeatherMap API', 'Axios', 'Moment.js', 'SCSS', 'Vue Router'],
+                    description: 'This web application utilizes OpenWeatherMap\'s API to show the weather for an inputed location. Other features include: dynamic icons based on the weather, the location\'s time, and a dynamic background color depending on the sunset/sunrise of the location. The backend is built with Node/Express and uses node-fetch to make the API call. Axios is used on the Vue front end to communicate this call. Vue Router is used to allow navigation between the input, result, and not found routes.',
                     github: 'https://github.com/reaganclayton/weatherUP',
                     demo: 'https://weather-up-fullstack.herokuapp.com/'
                 },
@@ -67,8 +67,8 @@ export default {
                 },
                 {
                     title: 'Portfolio Website',
-                    techs: ['Vue.js', 'SCSS', 'Figma', 'Photoshop'],
-                    description: 'The website you are on right now! This web application is built with Vue.js and utilizes Vue\'s reusable components, props, form validation, and more. The design is inspired by the common "dark theme" style, and I used a blue accent to make it pop. Figma was used for design and Photoshop was used to implement the design.',
+                    techs: ['Vue.js', 'Vue Router', 'SCSS', 'Figma', 'Photoshop'],
+                    description: 'The website you are on right now! This web application is built with Vue.js and utilizes Vue\'s reusable components, props, form validation, and more. Vue Router is also used for the contact success message and a not found page. Go ahead and try it out! The design is inspired by the common "dark theme" style, and I used a blue accent to make it pop. Figma was used for design and Photoshop was used to implement the design.',
                     github: 'https://github.com/reaganclayton/MyPortfolio',
                     demo: 'https://reaganclayton.com'
                 },

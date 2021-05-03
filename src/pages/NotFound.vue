@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Thanks for getting in touch</h1>
-        <p>I will get back with you as soon as I can!</p>
+        <h1>That page doesn't exist</h1>
+        <p>Press the button below to return to safety!</p>
         <router-link to="/">
             <button class="btn">
                 <span><i class="fa fa-angle-left"></i></span> Go back
