@@ -6,7 +6,7 @@
             <p>Fill out this form and I will get back with you as soon as I can</p>            
         </div>
         <form
-            action="https://formsubmit.co/reaganclayton1995@gmail.com"
+            action="https://formsubmit.co/me@reaganclayton.com"
             method="POST"
             id="app"
             @submit="validate"
