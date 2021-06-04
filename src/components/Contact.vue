@@ -45,7 +45,7 @@
                     v-model="message"
                     type="textarea"
                     name="message"
-                    rows="12" cols="50"
+                    rows="6" cols="40"
                 />
             </p>
             <p>
@@ -103,7 +103,7 @@ export default {
 <style lang="scss" scoped>
 section {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: $gray;
     display: flex;
     align-items: center;
