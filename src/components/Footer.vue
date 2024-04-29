@@ -12,8 +12,8 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:me@reaganclayton.com">
-                        <p>me@reaganclayton.com</p>
+                    <a href="mailto:reaganclayton1995@gmail.com">
+                        <p>reaganclayton1995@gmail.com</p>
                     </a>
                 </li>
             </ul>
