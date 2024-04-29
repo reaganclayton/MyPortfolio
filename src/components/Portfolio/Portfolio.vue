@@ -56,7 +56,7 @@ export default {
                     techs: ['Vue.js', 'Node/Express', 'OpenWeatherMap API', 'Axios', 'Moment.js', 'SCSS', 'Vue Router'],
                     description: 'This web application utilizes OpenWeatherMap\'s API to show the weather for an inputed location. Other features include: dynamic icons based on the weather, the location\'s time, and a dynamic background color depending on the sunset/sunrise of the location. The backend is built with Node/Express and uses node-fetch to make the API call. Axios is used on the Vue front end to communicate this call. Vue Router is used to allow navigation between the input, result, and not found routes.',
                     github: 'https://github.com/reaganclayton/weatherUP',
-                    demo: 'https://weather-up-fullstack.herokuapp.com/'
+                    demo: 'https://weatherup-835541eb74c8.herokuapp.com/'
                 },
                 {
                     title: 'BestConnect',
